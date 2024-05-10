@@ -39,6 +39,7 @@ android {
 }
 
 dependencies {
+    implementation(libs.lottie)
     implementation(libs.zxing.android.embedded)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

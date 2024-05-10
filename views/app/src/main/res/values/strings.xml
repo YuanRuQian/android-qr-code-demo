@@ -7,4 +7,5 @@
     <string name="generate_qr_code">Generate QR Code</string>
     <string name="qr_code">QR code</string>
     <string name="current_encoded_data">Current encoded data: %1$s</string>
+    <string name="scan_code">Scan Code</string>
 </resources>
