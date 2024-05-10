@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- qr_code_generator_fragment.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextEncodedData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:autofillHints="Enter encoded data"
+        android:hint="@string/enter_encoded_data"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/buttonGenerateQRCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextEncodedData"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/generate_qr_code"/>
+
+    <ImageView
+        android:id="@+id/imageViewQRCode"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/buttonGenerateQRCode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/qr_code"
+        android:scaleType="centerInside"/>
+
+    <TextView
+        android:id="@+id/textViewQRCodeData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewQRCode"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

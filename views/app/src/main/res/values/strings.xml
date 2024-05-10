@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">qrcodeviews</string>
+    <string name="title_home">Code Image Generator</string>
+    <string name="title_dashboard">Code Scanner</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="enter_encoded_data">Enter encoded data</string>
+    <string name="generate_qr_code">Generate QR Code</string>
+    <string name="qr_code">QR code</string>
+    <string name="current_encoded_data">Current encoded data: %1$s</string>
+</resources>
